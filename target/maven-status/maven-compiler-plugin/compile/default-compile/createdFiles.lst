@@ -1,0 +1,4 @@
+in/com/Management/controller/UserController.class
+in/com/Management/config/ManagementAppDispatcherServletInitializer.class
+in/com/Management/config/SpringRootConfig.class
+in/com/Management/config/SpringWebConfig.class
