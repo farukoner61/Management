@@ -16,7 +16,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="static/images/icons/favicon.ico" type="image/ico" />
 
-        <title>Projects | </title>
+        <title>Projects </title>
 
         <!-- Bootstrap -->
         <link href="static/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -256,7 +256,7 @@
                                                         <small>57% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -282,7 +282,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -308,7 +308,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -334,7 +334,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -361,7 +361,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -387,7 +387,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -413,7 +413,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -439,7 +439,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -465,7 +465,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -491,7 +491,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -517,7 +517,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -543,7 +543,7 @@
                                                         <small>47% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -572,7 +572,7 @@
                                                         <small>77% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -604,7 +604,7 @@
                                                         <small>60% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -633,7 +633,7 @@
                                                         <small>12% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -665,7 +665,7 @@
                                                         <small>35% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -691,7 +691,7 @@
                                                         <small>87% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -720,7 +720,7 @@
                                                         <small>77% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -752,7 +752,7 @@
                                                         <small>77% Complete</small>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
+                                                        <a href="/Management/ProjectDetail" class="btn btn-success btn-xs"><i class="fa fa-check-square-o"></i> Success </a>
                                                     </td>
                                                 </tr>
                                             </tbody>
