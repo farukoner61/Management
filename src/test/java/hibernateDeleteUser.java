@@ -17,7 +17,7 @@ public class hibernateDeleteUser {
         
         UserDAOImpl userDAOImpl = new UserDAOImpl();
         User user = new User();
-        user.setCompanyId(555);
+        user.setId(4);
         user.setUsername("burak");
         user.setPassword("1234");
         userDAOImpl.delete(user);

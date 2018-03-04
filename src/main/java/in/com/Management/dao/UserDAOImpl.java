@@ -17,11 +17,13 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author Elidor
  */
+@Repository("UserDAO")
 public class UserDAOImpl implements UserDAO {
 
     @Override
@@ -37,7 +39,7 @@ public class UserDAOImpl implements UserDAO {
             session.getTransaction().rollback();
         } finally {
             session.close();
-            sessionFactory.close();
+            //sessionFactory.close();
         }
     }
 
@@ -54,7 +56,7 @@ public class UserDAOImpl implements UserDAO {
             session.getTransaction().rollback();
         } finally {
             session.close();
-            sessionFactory.close();
+            //sessionFactory.close();
         }
     }
 
@@ -71,7 +73,7 @@ public class UserDAOImpl implements UserDAO {
             session.getTransaction().rollback();
         } finally {
             session.close();
-            sessionFactory.close();
+            //sessionFactory.close();
         }
     }
 
@@ -89,7 +91,7 @@ public class UserDAOImpl implements UserDAO {
             session.getTransaction().rollback();
         } finally {
             session.close();
-            sessionFactory.close();
+            //sessionFactory.close();
         }
         return user;
     }
@@ -110,7 +112,7 @@ public class UserDAOImpl implements UserDAO {
             session.getTransaction().rollback();
         } finally {
             session.close();
-            sessionFactory.close();
+            //sessionFactory.close();
         }
         return userList;
     }
@@ -120,7 +122,8 @@ public class UserDAOImpl implements UserDAO {
 
         List<User> userList = null;
         Transaction transaction = null;
-        Session session = HibernateUtil.getSessionFactory().openSession();
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+        Session session = sessionFactory.getCurrentSession();
         try {
             transaction = session.beginTransaction();
             CriteriaBuilder builder = session.getCriteriaBuilder();
@@ -136,7 +139,7 @@ public class UserDAOImpl implements UserDAO {
             }
         } finally {
             session.close();
-            HibernateUtil.getSessionFactory().close();
+            //sessionFactory.close();
         }
         return userList;
     }

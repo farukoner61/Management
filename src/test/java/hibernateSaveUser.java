@@ -17,8 +17,7 @@ public class hibernateSaveUser {
         
         UserDAOImpl userDAOImpl = new UserDAOImpl();
         User user = new User();
-        user.setCompanyId(3599);
-        user.setUsername("burak");
+        user.setUsername("omer");
         user.setPassword("4321");
         userDAOImpl.save(user);
         

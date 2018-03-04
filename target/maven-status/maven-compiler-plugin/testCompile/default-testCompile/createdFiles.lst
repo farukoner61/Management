@@ -1,0 +1,7 @@
+UserServiceLogin.class
+hibernateListUser.class
+hibernateDeleteUser.class
+hibernateUpdateUser.class
+hibernateFindByProperty.class
+hibernateFindById.class
+hibernateSaveUser.class

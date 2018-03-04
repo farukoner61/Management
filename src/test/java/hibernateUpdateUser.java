@@ -16,7 +16,7 @@ public class hibernateUpdateUser {
     public static void main(String args[]) {
 
         User u = new User();
-        u.setCompanyId(5);
+        u.setId(5);
         u.setUsername("elidor");
         u.setPassword("1234");
         UserDAOImpl userDAOImpl = new UserDAOImpl();

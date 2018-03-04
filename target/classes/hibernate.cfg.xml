@@ -12,8 +12,10 @@
         <property name="show_sql">true</property>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.current_session_context_class">thread</property>
-
+        
+        <mapping class="in.com.Management.domain.Employee" />
         <mapping class="in.com.Management.domain.User" />
+        
 
     </session-factory>
 </hibernate-configuration>

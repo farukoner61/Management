@@ -34,135 +34,7 @@
     <body class="nav-md">
         <div class="container body">
             <div class="main_container">
-                <div class="col-md-3 left_col">
-                    <div class="left_col scroll-view">
-                        <div class="navbar nav_title" style="border: 0;">
-                            <a href="/Management/Home" class="site_title"><i class="fa fa-paw"></i> <span>Profile</span></a>
-                        </div>
-
-                        <div class="clearfix"></div>
-
-                        <!-- menu profile quick info -->
-                        <div class="profile clearfix">
-                            <div class="profile_pic">
-                                <img src="static/images/img.jpg" alt="..." class="img-circle profile_img">
-                            </div>
-                            <div class="profile_info">
-                                <span>Welcome,</span>
-                                <h2>John Doe</h2>
-                            </div>
-                        </div>
-                        <!-- /menu profile quick info -->
-
-                        <br />
-
-                        <!-- sidebar menu -->
-                        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-                            <div class="menu_section">
-                                <h3>General</h3>
-                                <ul class="nav side-menu">
-                                    <li><a href="/Management/Home"><i class="fa fa-home"></i> Home</a></li>
-                                    <li><a href="/Management/Projects"><i class="fa fa-edit"></i> Projects</a></li>
-                                    <li><a><i class="fa fa-money"></i> Budget</a></li>
-                                    <li><a><i class="fa fa-desktop"></i> General Status</a></li>
-                                    <li><a><i class="fa fa-line-chart"></i> Personnel Performance</a></li>
-                                    <li><a><i class="fa fa-users"></i> Staff</a></li>
-                                    <li><a><i class="fa fa-question"></i> Problems and Suggestions</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- top navigation -->
-                <div class="top_nav">
-                    <div class="nav_menu">
-                        <nav>
-                            <div class="nav toggle">
-                                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
-                            </div>
-
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="">
-                                    <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                        <img src="static/images/img.jpg" alt="">John Doe
-                                        <span class=" fa fa-angle-down"></span>
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-usermenu pull-right">
-                                        <li><a href="/Management/Profile"> Profile</a></li>
-                                        <li><a href="/Management/Login"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
-                                    </ul>
-                                </li>
-
-                                <li role="presentation" class="dropdown">
-                                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa fa-envelope-o"></i>
-                                        <span class="badge bg-green">6</span>
-                                    </a>
-                                    <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
-                                        <li>
-                                            <a>
-                                                <span class="image"><img src="static/images/img.jpg" alt="Profile Image" /></span>
-                                                <span>
-                                                    <span>John Smith</span>
-                                                    <span class="time">3 mins ago</span>
-                                                </span>
-                                                <span class="message">
-                                                    Film festivals used to be do-or-die moments for movie makers. They were where...
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-                                                <span class="image"><img src="static/images/img.jpg" alt="Profile Image" /></span>
-                                                <span>
-                                                    <span>John Smith</span>
-                                                    <span class="time">3 mins ago</span>
-                                                </span>
-                                                <span class="message">
-                                                    Film festivals used to be do-or-die moments for movie makers. They were where...
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-                                                <span class="image"><img src="static/images/img.jpg" alt="Profile Image" /></span>
-                                                <span>
-                                                    <span>John Smith</span>
-                                                    <span class="time">3 mins ago</span>
-                                                </span>
-                                                <span class="message">
-                                                    Film festivals used to be do-or-die moments for movie makers. They were where...
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-                                                <span class="image"><img src="static/images/img.jpg" alt="Profile Image" /></span>
-                                                <span>
-                                                    <span>John Smith</span>
-                                                    <span class="time">3 mins ago</span>
-                                                </span>
-                                                <span class="message">
-                                                    Film festivals used to be do-or-die moments for movie makers. They were where...
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <div class="text-center">
-                                                <a>
-                                                    <strong>See All Alerts</strong>
-                                                    <i class="fa fa-angle-right"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <!-- /top navigation -->
-
+                <jsp:include page="header.jsp"></jsp:include>
                 <!-- page content -->
                 <div class="right_col" role="main">
                     <div class="">
@@ -182,7 +54,7 @@
                                                     <img class="img-responsive avatar-view" src="static/images/picture.jpg" alt="Avatar" title="Change the avatar">
                                                 </div>
                                             </div>
-                                            <h3>Samuel Doe</h3>
+                                            <h3 style="text-transform: capitalize;">${name}${surname}</h3>
 
                                             <ul class="list-unstyled user_data">
                                                 <li><i class="fa fa-map-marker user-profile-icon"></i> San Francisco, California, USA
@@ -521,23 +393,23 @@
 
                                                                         <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left input_mask">
                                                                             <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                                                                <input type="text" class="form-control has-feedback-left" id="firstname" placeholder="First Name">
+                                                                                <input type="text" class="form-control has-feedback-left" id="firstname" value="${name}" placeholder="First Name">
                                                                                 <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
                                                                             </div>
                                                                             <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                                                                <input type="text" class="form-control has-feedback-left" id="surname" placeholder="Surname">
+                                                                                <input type="text" class="form-control has-feedback-left" id="surname" value="${surname}" placeholder="Surname">
                                                                                 <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
                                                                             </div>
                                                                             <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                                                                <input type="text" class="form-control has-feedback-left" id="e-mail" placeholder="E-mail">
+                                                                                <input type="text" class="form-control has-feedback-left" id="e-mail" value="${email}" placeholder="E-mail">
                                                                                 <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
                                                                             </div>
                                                                             <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                                                                <input type="text" class="form-control has-feedback-left" data-inputmask="'mask': '99/99/9999'" placeholder="Birthday">
+                                                                                <input type="text" class="form-control has-feedback-left" data-inputmask="'mask': '99/99/9999'" value="${birthday}" placeholder="Birthday">
                                                                                 <span class="fa fa-birthday-cake form-control-feedback left" aria-hidden="true"></span>
                                                                             </div>
                                                                             <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                                                                <input type="text" class="form-control has-feedback-left" data-inputmask="'mask' : '(999) 999-9999'" placeholder="Phone">
+                                                                                <input type="text" class="form-control has-feedback-left" data-inputmask="'mask' : '(999) 999-9999'" value="${phone}" placeholder="Phone">
                                                                                 <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span>
                                                                             </div>
                                                                             <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">

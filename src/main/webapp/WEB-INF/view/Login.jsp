@@ -5,8 +5,8 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="f" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -41,7 +41,8 @@
         <div class="limiter">
             <div class="container-login100" style="background-image: url('static/images/bg-01.jpg');">
                 <div class="wrap-login100">
-                    <form class="login100-form validate-form" action="/Management/Home" method="post">
+
+                    <f:form class="login100-form validate-form" id="loginForm" action="/Management/Login" modelAttribute="command" method="post">
                         <span class="login100-form-logo">
                             <i class="zmdi zmdi-landscape"></i>
                         </span>
@@ -51,12 +52,12 @@
                         </span>
 
                         <div class="wrap-input100 validate-input" data-validate = "Enter username">
-                            <input class="input100" type="text" name="username" placeholder="Username">
+                            <f:input class="input100" type="text" path="username" name="username" placeholder="Username"/>
                             <span class="focus-input100" data-placeholder="&#xf207;"></span>
                         </div>
 
                         <div class="wrap-input100 validate-input" data-validate="Enter password">
-                            <input class="input100" type="password" name="pass" placeholder="Password">
+                            <f:input class="input100" type="password" path="password" name="pass" placeholder="Password"/>
                             <span class="focus-input100" data-placeholder="&#xf191;"></span>
                         </div>
 
@@ -65,6 +66,11 @@
                             <label class="label-checkbox100" for="ckb1">
                                 Remember me
                             </label>
+                            <c:if test="${err!=null}">
+                                <div class="validate-input" data-validate="Login Failed! Enter valid credentials.">
+                                    <p style="color: #990000; margin-top: 10px;">${err}</p>
+                                </div>
+                            </c:if>
                         </div>
 
                         <div class="container-login100-form-btn">
@@ -78,7 +84,7 @@
                                 Forgot Password?
                             </a>
                         </div>
-                    </form>
+                    </f:form>
                 </div>
             </div>
         </div>

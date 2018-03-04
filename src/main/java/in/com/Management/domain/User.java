@@ -18,18 +18,73 @@ import javax.persistence.UniqueConstraint;
  */
 @Entity
 @Table(name = "Login", uniqueConstraints = {
-    @UniqueConstraint(columnNames = {"companyId"})})
+    @UniqueConstraint(columnNames = {"id"})})
 public class User implements Serializable {
 
     @Id
-    @Column(name = "companyId")
-    private int companyId;
+    @Column(name = "id", unique = true, nullable = false, length = 11)
+    private int id;
 
-    @Column(name = "username")
+    @Column(name = "username", nullable = false, length = 45)
     private String username;
 
-    @Column(name = "password")
+    @Column(name = "password", nullable = false, length = 45)
     private String password;
+
+    @Column(name = "name", nullable = false, length = 45)
+    private String name;
+
+    @Column(name = "surname", nullable = false, length = 45)
+    private String surname;
+
+    @Column(name = "email", nullable = true)
+    private String email;
+
+    @Column(name = "phone", nullable = true)
+    private String phone;
+
+    @Column(name = "birthday", nullable = true)
+    private String birthday;
+
+    public String getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
 
     public String getUsername() {
         return username;
@@ -47,11 +102,12 @@ public class User implements Serializable {
         this.password = password;
     }
 
-    public int getCompanyId() {
-        return companyId;
+    public int getId() {
+        return id;
     }
 
-    public void setCompanyId(int companyId) {
-        this.companyId = companyId;
+    public void setId(int id) {
+        this.id = id;
     }
+
 }

@@ -15,7 +15,7 @@ public class hibernateFindById {
 
     public static void main(String args[]) {
         
-        int userId = 5;
+        int userId = 2;
         UserDAOImpl userDAOImpl = new UserDAOImpl();
         User user = userDAOImpl.findById(userId);
         

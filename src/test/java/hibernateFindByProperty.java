@@ -19,7 +19,7 @@ public class hibernateFindByProperty {
         UserDAOImpl userDAOImpl = new UserDAOImpl();
         List<User> userList = userDAOImpl.findByProperty("username", "burak");
         for (User user : userList) {
-            System.out.println(user.getCompanyId());
+            System.out.println(user.getId());
         }
 
         System.out.println("Successfully Found");

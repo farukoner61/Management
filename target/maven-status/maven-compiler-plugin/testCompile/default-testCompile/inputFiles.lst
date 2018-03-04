@@ -3,3 +3,5 @@
 /home/rds/NetBeansProjects/Management/src/test/java/hibernateFindById.java
 /home/rds/NetBeansProjects/Management/src/test/java/hibernateSaveUser.java
 /home/rds/NetBeansProjects/Management/src/test/java/hibernateDeleteUser.java
+/home/rds/NetBeansProjects/Management/src/test/java/UserServiceLogin.java
+/home/rds/NetBeansProjects/Management/src/test/java/hibernateUpdateUser.java

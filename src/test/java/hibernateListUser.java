@@ -20,7 +20,7 @@ public class hibernateListUser {
         List<User> userList = userDAOImpl.findAll();
 
         for (User user : userList) {
-            System.out.println("ID: " + user.getCompanyId());
+            System.out.println("ID: " + user.getId());
             System.out.println("Username: " + user.getUsername());
             System.out.println("Password: " + user.getPassword());
         }
