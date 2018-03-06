@@ -75,19 +75,25 @@ public class UserController {
         nameSurname(m, session);
         return "ProjectDetail";
     }
-    
+
     @RequestMapping(value = {"/Staff"})
     public String Staff(Model m, HttpSession session) {
         nameSurname(m, session);
         return "Staff";
     }
 
+    @RequestMapping(value = {"/ProbAndSugg"})
+    public String ProbAndSugg(Model m, HttpSession session) {
+        nameSurname(m, session);
+        return "ProbAndSugg";
+    }
+
     private void addUserInSession(User u, HttpSession session) {
         session.setAttribute("user", u);
         session.setAttribute("userId", u.getId());
     }
-    
-    private void nameSurname(Model m, HttpSession session){
+
+    private void nameSurname(Model m, HttpSession session) {
         User u = (User) session.getAttribute("user");
         m.addAttribute("name", u.getName() + " ");
         m.addAttribute("surname", u.getSurname());

@@ -37,7 +37,7 @@
                     <li><a><i class="fa fa-desktop"></i> General Status</a></li>
                     <li><a><i class="fa fa-line-chart"></i> Personnel Performance</a></li>
                     <li><a href="/Management/Staff"><i class="fa fa-users"></i> Staff</a></li>
-                    <li><a><i class="fa fa-question"></i> Problems and Suggestions</a></li>
+                    <li><a href="/Management/ProbAndSugg"><i class="fa fa-question"></i> Problems and Suggestions</a></li>
                 </ul>
             </div>
         </div>
