@@ -75,6 +75,12 @@ public class UserController {
         nameSurname(m, session);
         return "ProjectDetail";
     }
+    
+    @RequestMapping(value = {"/Staff"})
+    public String Staff(Model m, HttpSession session) {
+        nameSurname(m, session);
+        return "Staff";
+    }
 
     private void addUserInSession(User u, HttpSession session) {
         session.setAttribute("user", u);

@@ -78,7 +78,6 @@
                         </div>
                     </div>
                     <!-- /top tiles -->
-
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="dashboard_graph">
@@ -140,19 +139,13 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-
                                 <div class="clearfix"></div>
                             </div>
                         </div>
-
                     </div>
                     <br />
-
                     <div class="row">
-
-
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="x_panel tile fixed_height_320">
                                 <div class="x_title">
@@ -261,7 +254,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="x_panel tile fixed_height_320 overflow_hidden">
                                 <div class="x_title">
@@ -341,8 +333,6 @@
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="x_panel tile fixed_height_320">
                                 <div class="x_title">
@@ -394,10 +384,7 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
-
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="x_panel">
@@ -485,14 +472,8 @@
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="col-md-8 col-sm-8 col-xs-12">
-
-
-
                             <div class="row">
-
                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                     <div class="x_panel">
                                         <div class="x_title">
